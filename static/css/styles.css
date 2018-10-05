@@ -1,0 +1,9 @@
+.highlight-wrapper {
+    position: relative;
+}
+
+.highlight-link {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
