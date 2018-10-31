@@ -6,14 +6,12 @@ The solution wraps the out of the box highlight feature of hugo in additional di
 
 ## Example usage
 
-This example creates a collapsible code block.
+This example creates a collapsible code block for CSS code.
 
 ```
-{{< more >}}
-''' css
+{{< code css >}}
 
 ... lots of css code ...
 
-'''
-{{< /more >}}
+{{< /code >}}
 ```
