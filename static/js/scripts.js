@@ -1,7 +1,7 @@
 // Collapsible Hugo code blocks
 // by Jiri De Jagere, @JiriDJ
 
-var height = 300;
+var height = 300px;
 
 if (
   document.readyState === "complete" ||
@@ -35,7 +35,7 @@ function makeCollapsible() {
 
   for (i=0; i < divs.length; i++) {
     var div = divs[i];
-    if (div.offsetHeight > height) {
+    if (div.offsetHeight > parseInt(height, 10)) {
       div.style.maxHeight = height;
       div.style.overflow = "hidden";
 
