@@ -15,3 +15,8 @@ This example creates a collapsible code block for CSS code.
 
 {{< /code >}}
 ```
+
+## Usage tips
+
+1. This shortcode accepts the same parameters as the default [highlight shortcode](https://gohugo.io/content-management/syntax-highlighting/#highlight-shortcode) does.
+2. Be sure to include the CSS and Javascript files from the static folder into your site, or the shortcode will not work as expected. 
